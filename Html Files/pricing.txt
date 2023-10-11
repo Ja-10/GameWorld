@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/1.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/pricing.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <title>Pricing- GameWorld</title>
+  </head>
+<body>
+    <section>
+        <nav>
+            <div class="brand">
+              <img src="./images/1.png" alt="hosting" />
+              <a href="/">GameWorld</a>
+            </div>
+    
+            <i class="fa fa-bars" aria-hidden="true"></i>
+    
+            <ul>
+              <i class="fa fa-times" aria-hidden="true"></i>
+              <li><a href="/">Home</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./login.html">Sign in</a></li>
+            </ul>
+          </nav>
+
+          <h1>
+              GameWorld Kits
+          </h1>
+
+          <div class="pricing-cards">
+              <div class="pricing-card">
+                  <p class="plan">Starter Kit</p>
+                  <p class="description">
+                    
+                  </p>
+
+                  <a href="./login.html">Register</a>
+
+                  <div class="price">₹199 <span>per month</span></div>
+
+                  <ul>
+                    <li>Play on-demand games for free.</li>
+                    <li>Get access to our best games.</li>
+                    <li>Get beginner game-rewards.</li>
+                    <li>Get access to newly-launched games for upto 5 hours.</li>
+                  </ul>
+              </div>
+
+      
+              <div class="pricing-card">
+                <p class="plan">Professional Kit</p>
+                <p class="description">
+                  
+                </p>
+      
+                <a href="./login.html"> Register</a>
+      
+                <div class="price">₹599 <span>per month</span></div>
+      
+                <ul>
+                  <li>Play premium edition games.</li>
+                  <li>Get access to select games before they launch.</li>
+                  <li>Get access to a library of favourites preferred by players from all around the world.</li>
+                  <li>Get access to member-only game rewards.</li>
+              
+                </ul>
+              </div>
+          </div>
+    </section>
+
+    <div class="copyright">
+        &copy; All rights reserved by GameWorld 
+    </div>
+
+    <script src="./js/navbar.js"></script>
+</body>
+</html>
